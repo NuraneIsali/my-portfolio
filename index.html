@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MY-PORTFOLIO</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&family=Poppins:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <!-- FontAwesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Custom Cursor -->
+    <div class="cursor-dot"></div>
+    <div class="cursor-outline"></div>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <a href="#home" class="logo">Nurane<span>Isali</span></a>
+        <ul class="nav-links">
+            <li><a href="#home" class="active">Ana Səhifə</a></li>
+            <li><a href="#about">Haqqımda</a></li>
+            <li><a href="#skills">Bacarıqlar</a></li>
+            <li><a href="#projects">Layihələr</a></li>
+            <li><a href="#contact">Əlaqə</a></li>
+        </ul>
+        <div class="hamburger">
+            <i class="fas fa-bars"></i>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main>
+        <!-- Hero Section -->
+        <section id="home" class="hero">
+            <div class="hero-content hidden">
+                <p class="subtitle">Xoş Gəlmisiniz</p>
+                <h1 class="title">Mən <span class="highlight typed-text"></span><span class="cursor-blink">&nbsp;</span></h1>
+                <p class="description">Müasir, cəlbədici və yüksək performanslı veb tətbiqlər yaradan Front-End Tərtibatçısı. Dizaynı koda çevirməkdən zövq alıram!</p>
+                <div class="cta-buttons">
+                    <a href="#projects" class="btn primary-btn">Layihələrim</a>
+                    <a href="#contact" class="btn secondary-btn">Əlaqə</a>
+                    <a href="cv.pdf/cv.pdf" download class="btn secondary-btn"><i class="fas fa-download"></i> CV Yüklə</a>
+                </div>
+                <div class="social-links">
+                    <a href="https://github.com/NuraneIsali"><i class="fab fa-github"></i></a>
+                    <a href="https://www.linkedin.com/in/nuranə-isalı-7b3740297" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                   
+                </div>
+            </div>
+            <div class="hero-image hidden delay-1">
+                <div class="blob-wrapper">
+                    <div class="shape blob-1"></div>
+                    <div class="shape blob-2"></div>
+                    <img src="images/ef99f319-683e-49bf-8b40-d7200d65766b.jpg" alt="Developer" class="avatar">
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="about">
+            <h2 class="section-title hidden">Haqqımda <span>Məlumat</span></h2>
+            <div class="about-container">
+                <div class="glass-card hidden delay-1">
+                    <i class="fas fa-code icon"></i>
+                    <h3>Təcrübə</h3>
+                    <ul style="color: var(--text-muted); text-align:left; line-height:2; list-style:disc; padding-left:1.2rem;">
+                        <li>IT Liseyi — Front-End Instructor</li>
+                        <li>Vision Academy — Front-End Mentor</li>
+                        <li>KhanButa Group MMC — Front-End developer intern</li>
+                    </ul>
+                </div>
+                <div class="glass-card hidden delay-2">
+                    <i class="fas fa-graduation-cap icon"></i>
+                    <h3>Təhsil</h3>
+                    <ul style="color: var(--text-muted); text-align:left; line-height:2; list-style:disc; padding-left:1.2rem;">
+                        <li>Bakı Dövlət Universiteti — Kompüter Elmləri</li>
+                        <li>Garage Academy — Front-End Development</li>
+                        <li>ZH-Techno School — Front-End Development</li>
+                    </ul>
+                </div>
+                <div class="glass-card hidden delay-3">
+                    <i class="fas fa-laptop-code icon"></i>
+                    <h3>Layihələr</h3>
+                    <p>15+ uğurlu və interaktiv layihə.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills" class="skills">
+            <h2 class="section-title hidden">Texniki <span>Bacarıqlar</span></h2>
+            <div class="skills-grid">
+                <div class="skill-item hidden"><i class="fab fa-html5" style="color: #e34c26;"></i><span>HTML5</span></div>
+                <div class="skill-item hidden delay-1"><i class="fab fa-css3-alt" style="color: #264de4;"></i><span>CSS3</span></div>
+                <div class="skill-item hidden delay-2"><i class="fab fa-js" style="color: #f0db4f;"></i><span>JavaScript</span></div>
+                <div class="skill-item hidden delay-3"><i class="fab fa-react" style="color: #61dbfb;"></i><span>React.js</span></div>
+                <div class="skill-item hidden delay-4"><i class="fab fa-js" style="color: #3178c6;"></i><span>TypeScript</span></div>
+                <div class="skill-item hidden delay-5"><i class="fas fa-code" style="color: #cc6699;"></i><span>SCSS</span></div>
+                <div class="skill-item hidden delay-6"><i class="fab fa-git-alt" style="color: #f34f29;"></i><span>Git</span></div>
+                <div class="skill-item hidden delay-7"><i class="fab fa-figma" style="color: #f24e1e;"></i><span>Figma</span></div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="projects">
+            <h2 class="section-title hidden">Seçilmiş <span>Layihələr</span></h2>
+            <div class="projects-container">
+                <!-- Project 1 -->
+                <div class="project-card hidden delay-1">
+                    <div class="project-img">
+                        <img src="images/sekil1.png" alt="Animasiyalı Veb Sayt">
+                        <div class="project-overlay">
+                            <a href="https://cinester-web.vercel.app/" target="_blank" class="view-btn"><i class="fas fa-external-link-alt"></i> Baxmaq</a>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>Animasiyalı Veb Sayt</h3>
+                        <p>HTML və CSS ilə yığılmış, sadə, xoş görünüşlü və animasiyalı veb sayt layihəsi.</p>
+                        <div class="tech-stack"><span>HTML5</span><span>CSS3</span></div>
+                    </div>
+                </div>
+                <!-- Project 2 -->
+                <div class="project-card hidden delay-2">
+                    <div class="project-img">
+                        <img src="images/sekil2.png" alt="Zər Oyunu">
+                        <div class="project-overlay">
+                            <a href="https://zer-game.vercel.app/" target="_blank" class="view-btn"><i class="fas fa-external-link-alt"></i> Baxmaq</a>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>İki Oyunçulu Zər Oyunu</h3>
+                        <p>İki oyunçunun iştirakı ilə oynanılan əyləncəli zər oyunu.</p>
+                        <div class="tech-stack"><span>HTML5</span><span>CSS3</span><span>JavaScript</span></div>
+                    </div>
+                </div>
+                <!-- Project 3 -->
+                <div class="project-card hidden delay-3">
+                    <div class="project-img">
+                        <img src="images/sekil3.png" alt="Portfolio">
+                        <div class="project-overlay">
+                            <a href="https://vercelfayl.vercel.app/" class="view-btn"><i class="fas fa-external-link-alt"></i> Baxmaq</a>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>E-Commerce mebel veb saytı</h3>
+                        <p>Funksional mebel veb saytı layihəsi.</p>
+                        <div class="tech-stack"><span>HTML</span><span>CSS</span><span>JavaScript</span></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="contact">
+            <h2 class="section-title hidden">Mənimlə <span>Əlaqə</span></h2>
+            <div class="contact-wrapper">
+                <!-- Contact Info -->
+                <div class="contact-info hidden delay-1">
+                    <div class="contact-info-item glass-card">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <h4>Email</h4>
+                            <a href="mailto:nuraneisali@gmail.com">isayeva.nurane97@gmail.com</a>
+                        </div>
+                    </div>
+                    <div class="contact-info-item glass-card">
+                        <i class="fas fa-phone"></i>
+                        <div>
+                            <h4>Telefon</h4>
+                            <a href="tel:+994501234567">+994 55 304-44-21</a>
+                        </div>
+                    </div>
+                    <div class="contact-info-item glass-card">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div>
+                            <h4>Yer</h4>
+                            <p>Bakı, Azərbaycan</p>
+                        </div>
+                    </div>
+                    <div class="contact-info-item glass-card">
+                        <i class="fab fa-linkedin-in"></i>
+                        <div>
+                            <h4>LinkedIn</h4>
+                            <a href="https://www.linkedin.com/in/nuranə-isalı-7b3740297" target="_blank">nuranə-isalı</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Contact Form -->
+                <div class="contact-box glass-card hidden delay-2">
+                    <form id="contactForm">
+                        <div class="input-group">
+                            <input type="text" placeholder="Adınız" required>
+                        </div>
+                        <div class="input-group">
+                            <input type="email" placeholder="Email ünvanınız" required>
+                        </div>
+                        <div class="input-group">
+                            <textarea placeholder="Mesajınız" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn primary-btn w-100">Göndər <i class="fas fa-paper-plane"></i></button>
+                    </form>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>&copy; 2026. Hazırladı <span>Front-End Tərtibatçısı</span>. Bütün hüquqlar qorunur.</p>
+    </footer>
+
+    <!-- Custom JS -->
+    <script src="script.js"></script>
+</body>
+</html>
