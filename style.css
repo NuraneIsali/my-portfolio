@@ -334,9 +334,10 @@ section {
    ==================== */
 .about-container {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    grid-template-columns: repeat(3, 1fr);
     gap: 2rem;
     max-width: 1200px;
+    width: 100%;
     margin: 0 auto;
 }
 .about .glass-card {
@@ -397,9 +398,10 @@ section {
    ==================== */
 .projects-container {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    grid-template-columns: repeat(3, 1fr);
     gap: 2rem;
     max-width: 1200px;
+    width: 100%;
     margin: 0 auto;
 }
 .project-card {
@@ -645,6 +647,9 @@ footer span {
     .title {
         font-size: 2.8rem;
     }
+    .about-container, .projects-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
 }
 
 @media (max-width: 768px) {
@@ -718,9 +723,6 @@ footer span {
     body, a, .btn, .social-links a, .nav-links li a, .skill-item, .view-btn, .hamburger {
         cursor: auto;
     }
-}
-
-@media (max-width: 600px) {
     .about-container, .projects-container {
         grid-template-columns: 1fr;
     }
